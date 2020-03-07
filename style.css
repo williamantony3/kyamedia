@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+    font-family: "Source Sans Pro";
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+nav{
+    height: 100px;
+    background-color: burlywood;
+}
+nav a{
+    color: #fff;
+}
+#nav-left{
+    float: left;
+    width: 30%;
+}
+#nav-right{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
