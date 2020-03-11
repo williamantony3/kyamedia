@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    background-color: #efefef;
     font-family: "Source Sans Pro";
 }
 a{
@@ -12,10 +11,11 @@ a{
     height: 100%;
 }
 nav{
-    height: 100px;
-    background-color: burlywood;
+    height: 90px;
+    background-color: #00796B;
 }
 nav a{
+    font-weight: 600;
     color: #fff;
 }
 #nav-left{
@@ -24,10 +24,40 @@ nav a{
 }
 #nav-right{
     float: right;
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    justify-content: space-around;
-    align-items: center;
+    width: 50%;
     height: 100%;
 }
+#nav-right>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+#nav-right>ul>li{
+    display: inline-block;
+    line-height: 90px;
+    position: relative;
+}
+#nav-right>ul>li>a, #nav-right>ul>li>ul>li>a{
+    padding: 35px;
+    transition: 0.3s ease-in-out;
+}
+#nav-right>ul>li>a:hover, #nav-right>ul>li>ul>li>a:hover{
+    background-color: #009688;
+}
+#nav-right>ul>li:hover>ul{
+    display: block;
+}
+#nav-right>ul>li>ul{
+    display: none;
+    list-style: none;
+    background-color: #00796B;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+/* {
+    display: block;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+} */
