@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Quicksand";
-    color: #484848;
+    color: #212121;
 }
 a{
     text-decoration: none;
@@ -27,7 +27,7 @@ nav{
 nav a{
     font-family: "QuicksandBold";
     font-size: 14px;
-    color: #484848;
+    color: #212121;
 }
 #nav-left{
     float: left;
@@ -174,11 +174,11 @@ nav a{
 }
 /*New Product*/
 #new-product{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .header-section{
     width: 550px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 .judul-section{
     margin: 0;
@@ -197,6 +197,9 @@ nav a{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.row{
+    flex-direction: row;
+}
 .book img{
     width: 260px;
     height: 320px;
@@ -208,16 +211,44 @@ nav a{
     box-shadow: 0px 1px 3px 2px #ccc;
 }
 .judul-book{
-    color: #00796B;
+    color: #009688;
     font-size: 20px;
+    font-family: QuicksandBold;
+    margin-bottom: 5px;
 }
 .penulis-book{
     font-size: 12px;
     color: #757575;
+    margin-bottom: 5px;
 }
 .harga-book{
     color: #E91E63;
     font-size: 16px;
+    margin-bottom: 5px;
+}
+#our-events{
+    padding: 100px 0;
+    background-color: #E5E5E5;
+}
+.events{
+    background-color: #009688;
+    padding: 30px;
+    width: 25%;
+    box-shadow: 0 1px 3px 2px #ccc;
+}
+.judul-events{
+    color: #ffffff;
+    font-family: QuicksandBold;
+    font-size: 20px;
+}
+.desc-events{
+    color: #B2DFDB;
+    border-bottom: 1px solid #B2DFDB;
+    margin-bottom: 15px;
+}
+.tgl-events{
+    color: #ffffff;
+    font-size: 14px;
 }
 @media only screen and (max-width:700px){
     .slide-container {
