@@ -348,6 +348,7 @@ footer a{
     z-index: 999;
     border: 1px solid #009688;
     transition: 0.3s ease-in-out;
+    display: none;
 }
 #scroll-top:hover{
     background-color: #ffffff;
