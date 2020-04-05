@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="shortcut icon" href="images/logo-hijau.png" type="image/x-icon">
+    <title>Registration | KYamedia</title>
+    <script src="assets/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+   <a href="" id="scroll-top"><i class="fas fa-angle-up"></i></a>
+        <nav>
+        <div class="container">
+            <div id="nav-left">
+                <a href="index.html"><img src="images/logo-putih.png" alt="KYaMedia Logo"></a>
+            </div>
+            <div id="nav-right">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+                    <li>
+                        <a href="#"><i class="fas fa-boxes"></i> PRODUCTS</a>
+                        <ul>
+                            <li><a href="books.html"><i class="fas fa-book"></i> BOOKS</a></li>
+                            <li><a href="ebooks.html"><i class="fas fa-file"></i> EBOOKS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="registration.html"><i class="fas fa-user"></i> REGISTRATION</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> ABOUT</a></li>
+                </ul>
+            </div>
+
+        </div>
+        </nav>
+    <!-- <div class="register-page"> -->
+    <div class="container">
+        <div class="header-section registration">
+            <h1 class="judul-section">REGISTRATION <span class="hijau">MEMBER</span></h1>
+        </div>
+        <div class="form-box">
+                <!-- <h3 type="button" class="toogle-btn">Register</h3> -->
+            <form onsubmit="return validateForm()" class="input-group" >
+               <div>
+                    <input type="text" id="username" class="text-input" placeholder="Username" >
+                    <div id="username_error" class="val-error"></div>
+                </div>
+                <div>
+                    <input type="password" id="password" class="text-input" placeholder="Password">
+                </div>
+                <div>
+                    <input type="password" id="password-confirmation" class="text-input" placeholder="Password Confirmation">
+                    <div id="password_error" class="val-error"></div>
+                </div>
+                <div class="gender-radio">
+                    <INPUT TYPE="Radio" id = "male" Name="Gender" Value="Male">Male
+                    <INPUT TYPE="Radio" id = "female" Name="Gender" Value="Female">Female
+                    <div id="gender_error" class="val-error"></div>
+                </div>
+                <div>
+                    <input type="date" name="date-of-birth" class="text-input" placeholder="Date of Birth">
+                    <div id="date_error" class="val-error"></div>
+                </div>
+                <div>
+                    <input type="text" id="region" class="text-input" placeholder="Region">
+                    <div id="region_error" class="val-error"></div>
+                </div>
+                <div class="agreement-box">
+                    <input type="checkbox" id="agreement" class="check-box">
+                    <span>I agree to the KYamedia Term of Service</span>
+                    <div id="agreement_error" class="val-error"></div>
+                </div>
+                <div>
+                    <input type="submit" value="REGISTER" class="submit-btn">    
+                </div>
+                
+            </form>
+            
+        </div>
+        
+    
+    </div>
+    <footer>
+        <div id="footer-container">
+            <div id="logo-footer">
+                <img src="images/logo-putih.png" alt="">
+            </div>
+            <div id="text-footer">
+                KYamedia Bookstore is the famous bookstore in the world. Starts from Indonesia to all booklovers all around the world. Come and join our community!
+            </div>
+            <div id="social-footer">
+                <a href="https://facebook.com"><div class="social-item"><i class="fab fa-facebook-f"></i></div></a>
+                <a href="https://twitter.com"><div class="social-item"><i class="fab fa-twitter"></i></div></a>
+                <a href="https://instagram.com"><div class="social-item"><i class="fab fa-instagram"></i></div></a>
+            </div>
+            <div id="social-links">
+                <a href="index.html">Home</a>
+                <a href="books.html">Books</a>
+                <a href="ebooks.html">Ebooks</a>
+                <a href="registration.html">Registration</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="copyright">
+                <div class="container">
+                    <div id="copyright-kiri">
+                        Copyright &copy; 2020 KYamedia. All Rights Reserved
+                    </div>
+                    <div id="copyright-kanan">
+                        <img src="images/payment.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="register-script.js" type="text/javascript"></script>
+    
+</body>
+</html>

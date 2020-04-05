@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="shortcut icon" href="images/logo-hijau.png" type="image/x-icon">
+    <title>Atomic Habits | KYamedia</title>
+    <script src="assets/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <a href="" id="scroll-top"><i class="fas fa-angle-up"></i></a>
+    <nav>
+        <div class="container">
+            <div id="nav-left">
+                <a href="index.html"><img src="images/logo-putih.png" alt="KYaMedia Logo"></a>
+            </div>
+            <div id="nav-right">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+                    <li>
+                        <a href="#"><i class="fas fa-boxes"></i> PRODUCTS</a>
+                        <ul>
+                            <li><a href="books.html"><i class="fas fa-book"></i> BOOKS</a></li>
+                            <li><a href="ebooks.html"><i class="fas fa-file"></i> EBOOKS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="registration.html"><i class="fas fa-user"></i> REGISTRATION</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> ABOUT</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- <div class="product_tab_container"> -->
+        
+        <div class="product_container">
+            <img id="book_banner" src="./images/book.jpeg" alt="books">
+            <div id="product_info_container">
+                <div class="judul-detail-book">
+                    Atomic Habits
+                </div>
+                <div class="penulis-detail-book">
+                    James Clear
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="harga-detail-book">
+                    Rp 86.400
+                </div>
+                <div class="desc-detail-book">
+                    No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.
+                </div>
+                <div id="availability">
+                    Availability:
+                    <span class="merah">In Stock</span> 
+                </div>
+                <div id="qty">
+                    <span><b>Quantity: </b></span>
+                    <button><i class="fas fa-minus"></i></button>
+                    <input type="text" placeholder="1">
+                    <button><i class="fas fa-plus"></i></button>
+                </div>
+                <div id="cart">
+                    <button id="add_cart">ADD TO CART</button>
+                    <button class="comments"><i class="fas fa-heart"></i></button>
+                    <button class="comments"><i class="fas fa-share-alt"></i></button>
+                </div>
+                <!-- <div id="media_share">
+                    <span>Share: </span>
+                    <button class="media"><i class="fab fa-facebook-f"></i></button>
+                    <button class="media"><i class="fab fa-twitter"></i></button>
+                    <button class="media"><i class="fab fa-instagram"></i></button>
+                </div> -->
+            </div>
+        </div>
+    
+        <div class="switch_tab_container">
+            <div class="tab_trigger">
+                <ul>
+                <li><label for="tab1"><i class="fas fa-info"></i> Description</label></li>
+                <li><label for="tab2"><i class="fas fa-comment"></i> Comments</label></li>
+                <li><label for="tab3"><i class="fas fa-star"></i> Reviews</label></li>
+                </ul>
+            </div>
+            <div class="tab_container_wrap">
+                <input type="radio" checked id="tab1" name="1">
+                <div class="tab_content_box">
+                <p>No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</p>
+                    <p>If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.</p>
+                    
+                    <p>
+                        Clear is known for his ability to distill complex topics into simple behaviors that can be easily applied to daily life and work. Here, he draws on the most proven ideas from biology, psychology, and neuroscience to create an easy-to-understand guide for making good habits inevitable and bad habits impossible. Along the way, readers will be inspired and entertained with true stories from Olympic gold medalists, award-winning artists, business leaders, life-saving physicians, and star comedians who have used the science of small habits to master their craft and vault to the top of their field.
+                    </p>
+                    
+                    <p>
+                        Learn how to:
+                        *  make time for new habits (even when life gets crazy);
+                        *  overcome a lack of motivation and willpower;
+                        *  design your environment to make success easier;
+                        *  get back on track when you fall off course;
+                        ...and much more.
+
+                    </p>
+                    <p>
+                    Atomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal. </p>
+                </div>
+                <input type="radio" id="tab2" name="1">
+                <div class="comment_container">
+                <!-- <h2>Leave Us Comment</h2> -->
+                <form>
+                    <textarea placeholder="Add Your Comment"></textarea>
+                    <div class="btn">
+                    <button id="comment">Comment</button>
+                    <button id="clear">Cancel</button>
+                    </div>
+                </form>
+                </div>
+                <input type="radio" id="tab3" name="1">
+                <div class="tab_content_box">
+                <h2>Nomad</h2>
+                <div class="rating">
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Probably the most realistic self help book ever made. I generally hate self help books because most of their advice isn't based on real science or reliable advice. But this one, surprisingly works. Very easy to read, very well written, I actually bought it, was worth every penny, would recommend this to anybody, and any business that wants to grow. These principles can be implemented anywhere, even if your company has its own goal system, you can use this with anything. Go to James Clears website, you can learn so much more, and if you really want to give it a go, check out his habit academy, you will learn a very practical step by step program that will help implement his principles exactly to your own life, the book is the theory, the academy is the boot camp.</p>
+                <hr>
+                <h2>Mir Tahir Raza Talpur</h2>
+                <div class="rating">
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Good book overall.  Starts slow.  Some of the stories make you think, what's the point?  Once he gets into the laws and the practical applications the book really gets interesting and useful. You can use this book as a field manual.  Those are the best self help books.</p>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    
+
+    <!-- <div class="related_products_container">
+        <H1>Related Products</H1>
+        <div class="img_container">
+            <div class="small">
+                <img src="./images/book.jpeg" alt="">
+                <h1>Atomic Habits</h1>
+                <h2>Rp 115.000</h2>
+            </div>
+            <div class="small">
+                <img src="./images/book.jpeg" alt="">
+                <h1>Atomic Habits</h1>
+                <h2>Rp 115.000</h2>
+            </div>
+            <div class="small">
+                <img src="./images/book.jpeg" alt="">
+                <h1>Atomic Habits</h1>
+                <h2>Rp 115.000</h2>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="related_products_container">
+        <div class="header-section">
+            <h1 class="judul-section">RELATED <span class="hijau">PRODUCTS</span></h1>
+        </div>
+        <div class="isi-section">
+            <div class="book">
+                <a href="detail-book-1.html">
+                    <img src="images/book.jpeg" alt="">
+                    <div class="judul-book">Atomic Habits</div>
+                    <div class="penulis-book">James Clear</div>
+                    <div class="harga-book"><b>Rp 86.400</b></div>
+                </a>
+            </div>
+            <div class="book">
+                <a href="">
+                    <img src="images/book.jpeg" alt="">
+                    <div class="judul-book">Atomic Habits</div>
+                    <div class="penulis-book">James Clear</div>
+                    <div class="harga-book"><b>Rp 86.400</b></div>
+                </a>
+            </div>
+            <div class="book">
+                <a href="">
+                    <img src="images/book.jpeg" alt="">
+                    <div class="judul-book">Atomic Habits</div>
+                    <div class="penulis-book">James Clear</div>
+                    <div class="harga-book"><b>Rp 86.400</b></div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="footer-container">
+            <div id="logo-footer">
+                <img src="images/logo-putih.png" alt="">
+            </div>
+            <div id="text-footer">
+                KYamedia Bookstore is the famous bookstore in the world. Starts from Indonesia to all booklovers all around the world. Come and join our community!
+            </div>
+            <div id="social-footer">
+                <a href="https://facebook.com">
+                    <div class="social-item"><i class="fab fa-facebook-f"></i></div>
+                </a>
+                <a href="https://twitter.com">
+                    <div class="social-item"><i class="fab fa-twitter"></i></div>
+                </a>
+                <a href="https://instagram.com">
+                    <div class="social-item"><i class="fab fa-instagram"></i></div>
+                </a>
+            </div>
+            <div id="social-links">
+                <a href="index.html">Home</a>
+                <a href="books.html">Books</a>
+                <a href="ebooks.html">Ebooks</a>
+                <a href="registration.html">Registration</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="copyright">
+                <div class="container">
+                    <div id="copyright-kiri">
+                        Copyright &copy; 2020 KYamedia. All Rights Reserved
+                    </div>
+                    <div id="copyright-kanan">
+                        <img src="images/payment.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="plugin.js"></script>
+</body>
+
+</html>
